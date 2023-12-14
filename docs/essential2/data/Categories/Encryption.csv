@@ -1,0 +1,4 @@
+# Encryption,,,,,
+KeePassXC Password Manager,KeePassXCTeam.KeePassXC,https://github.com/keepassxreboot/keepassxc,https://keepassxc.org/download/,,Password Manager
+VeraCrypt,IDRIX.VeraCrypt,https://github.com/veracrypt/VeraCrypt,https://veracrypt.fr/Downloads.html,,Disk encryption with strong security based on TrueCrypt
+PicoCrypt,,https://github.com/HACKERALERT/Picocrypt,https://github.com/HACKERALERT/Picocrypt/releases/latest,,"A very small, very simple, yet very secure encryption tool."

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Categories</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Windows Apps</h1>
+    <div class="dropdown-container">
+        <!-- Dropdown for selecting categories -->
+        <select id="categoryDropdown0" onchange="changeCategory0()">
+            <!-- Options will be populated dynamically -->
+        </select>
+
+        <!-- Dropdown for selecting categories -->
+        <select id="categoryDropdown" onchange="changeCategory()">
+            <!-- Options will be populated dynamically -->
+        </select>
+        <input type="text" id="searchInput" placeholder="Search apps...">
+
+    </div>
+
+
+    <h3 id="categoryHeader"></h3>
+    <ul id="appList"></ul>
+
+    <div class="header-container">
+
+        <div class="button-container">
+            <button class="clearButton" onclick="clearSelectedApps()">Clear and Refresh</button>
+            <button class="copyButton" onclick="copySelectedApps()">Click to Copy</button>
+            <button class="schemabutton" onclick="yourButtonClickFunction()">Create Schema</button>
+        </div>
+        <ul id="selectedAppsList"></ul>
+        <div id="infoBox"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

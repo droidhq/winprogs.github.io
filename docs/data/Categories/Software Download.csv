@@ -1,0 +1,9 @@
+# Software Downloader,,,,,
+Ninite,,https://ninite.com/,,,Install and Update All Your Programs at Once
+Scoop,,https://scoop.sh/,,https://github.com/ScoopInstaller/Scoop,a command-line installer for Windows.
+Winget,,https://github.com/microsoft/winget-cli,,https://github.com/microsoft/winget-cli,Windows Package Manager.
+WingetUI,,https://www.marticliment.com/wingetui/,,https://github.com/marticliment/WingetUI,GUI for winget
+Wingetcreate,,https://github.com/microsoft/winget-create,,https://github.com/microsoft/winget-create,winget Manifest Creator
+Winstall,,https://winstall.app/,,https://github.com/omaha-consulting/winstall,web app for browsing and installing Windows Package Manager apps.
+choco,,https://chocolatey.org/,,https://github.com/chocolatey/choco,package manager for Windows
+majorgeeks,,https://www.majorgeeks.com/,,,

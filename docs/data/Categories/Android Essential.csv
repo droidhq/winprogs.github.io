@@ -1,0 +1,4 @@
+# Android Essential,,,,,
+Platform Tools,Google.PlatformTools,https://developer.android.com/tools/releases/platform-tools,https://dl.google.com/android/repository/platform-tools-latest-windows.zip,,"a component for the Android SDK, includes tools like adb and fastboot"
+Samsung USB Drivers,,https://developer.samsung.com/android-usb-driver,,,Samsung Android USB Driver for Windows
+Scrcpy,Genymobile.scrcpy,https://github.com/Genymobile/scrcpy,https://github.com/Genymobile/scrcpy/releases/latest,,Display and control your Android device with adb.

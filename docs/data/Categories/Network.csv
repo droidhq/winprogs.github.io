@@ -1,0 +1,8 @@
+# Network,,,,,
+Adguard Home,AdGuard.AdGuardHome,https://github.com/AdguardTeam/AdGuardHome,https://github.com/AdguardTeam/AdGuardHome/releases/latest,,Network-wide ads & trackers blocking DNS server
+Cloudflare Warp,Cloudflare.Warp,https://1.1.1.1/,https://1111-releases.cloudflareclient.com/windows/Cloudflare_WARP_Release-x64.msi,,Use Cloudflare DNS and Warp.
+Cloudflared,Cloudflare.cloudflared,,https://github.com/cloudflare/cloudflared/releases/latest,https://wiki.archlinux.org/title/Cloudflared,Cloudflare Tunnel client that can also be used ad doh proxy
+dnscrypt-proxy 2,DNSCrypt.dnscrypt-proxy,https://dnscrypt.info/,https://github.com/DNSCrypt/dnscrypt-proxy/releases/latest,,"A flexible DNS proxy, with support for encrypted DNS protocols."
+nextdns,NextDNS.NextDNS.Desktop,https://nextdns.io/,https://nextdns.io/download/windows/stable,https://github.com/nextdns/nextdns/wiki/Windows,dns level firewall
+wgcf,,https://github.com/ViRb3/wgcf,https://github.com/ViRb3/wgcf/releases/latest,,"Cross-platform, unofficial CLI for Cloudflare Warp"
+wireguard,WireGuard.WireGuard,https://www.wireguard.com/,https://download.wireguard.com/windows-client/wireguard-installer.exe,,simple yet fast and modern VPN 

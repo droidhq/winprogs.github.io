@@ -1,0 +1,118 @@
+/* Global Styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 18px;
+    padding: 14px;
+    position: relative;
+}
+
+h1 {
+    color: #fff;
+    margin-top: auto;
+}
+
+h3 {
+    color: #61dafb;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hyphen {
+    color: rgb(250, 250, 250);
+    font-weight: bold;
+    /* Set the desired color for the hyphen */
+}
+
+.winget {
+    background-color: #338fcc56;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: rgb(153, 112, 219);
+    text-decoration: none;
+}
+
+select {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 5px;
+    border: 1px solid #096079;
+}
+
+/* Container for Buttons and Info Box */
+.header-container {
+    position: fixed;
+    top: 20px;
+    right: 4px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    /* Set a higher z-index for the container */
+}
+
+/* Button Styles */
+.button-container button {
+    margin-top: 2px;
+    margin-bottom: 1px;
+    /* Adjust the margin for spacing between buttons */
+    font-size: 18px;
+    background-color: #338fccfd;
+    color: #000;
+    /* Add a 1px solid border with white color */
+    transition: background-color 0.7s ease;
+}
+
+.button-container button:active {
+    background-color: #2980b9;
+}
+
+/* Info Box Styles */
+#infoBox {
+    margin-top: -28px;
+    /* Adjust the margin to reduce the gap between button and info box */
+    background-color: rgb(66, 65, 65);
+    min-height: 10px;
+    border: 0.5px;
+    font-family: ubuntu, monospace;
+    font-size: 14px;
+    padding: 8px;
+}
+
+/* Dropdown Styles */
+.dropdown-container {
+    margin-top: auto;
+    position: relative;
+    display: inline-block;
+
+}
+
+/* Dropdown Button Styles */
+#categoryDropdown0,
+#categoryDropdown {
+    width: 100%;
+    font-size: medium;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#searchInput {
+    width: -webkit-fill-available;
+    font-size: medium;
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Clicked Element Styles */
+.bold-on-click {
+    font-weight: bold;
+    color: yellow;
+}
